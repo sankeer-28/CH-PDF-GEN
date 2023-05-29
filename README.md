@@ -17,5 +17,10 @@
 
 ### Tested and has worked to provide free unlocks on coursehero ‼️‼️‼️
 ### Submit as any math subject
+# How To Run
+![image](https://github.com/sankeer-28/Math-PDF-Generator/assets/112449287/4ce3c110-eb71-4130-92a1-ed7c90b0e889)
+
+#### Download the latest release and click on the pdfgenerator.exe file to run
+### OR
 ## Simply download the repo -> extract the file -> click the generate.bat
 
