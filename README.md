@@ -1,4 +1,4 @@
-# CH-PDF-GEN
+# CourseFero Free Unlocks PDF Generator (Math)
 ### A simple random math pdf generator that exploits the [CourseHero Uploads for Unlocks](https://www.coursehero.com/upload/) to gains free unlocks
 ## It is recommended to submit not more than 20 pdfs at a time 
 
