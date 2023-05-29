@@ -1,7 +1,8 @@
 # CH-PDF-GEN
-### A simple random math pdf generator for [CourseHero](https://www.coursehero.com/upload/) that gains free unlocks
+### A simple random math pdf generator that exploits the [CourseHero Uploads for Unlocks](https://www.coursehero.com/upload/) to gains free unlocks
+## It is recommended to submit not more than 20 pdfs at a time 
 
-### Creates a folder called "generated_pdfs" in your Downloads directory and generates 20 pdfs with arandom file name
+### Creates a folder called "generated_pdfs" in your Downloads directory and generates 20 pdfs with a random file name
 ### Each pdf has an answer key at the end ‼️
 
 #### Example Question page
