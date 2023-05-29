@@ -43,14 +43,14 @@ for i in range(1, 21):
                 continue
             answers.extend([answer1, answer2, answer3])
             equation_number = p*102 + j*3 + 1
-            equation1 = f"{equation_number}. {equation1} ="
-            equation2 = f"{equation_number+1}. {equation2} ="
-            equation3 = f"{equation_number+2}. {equation3} ="
+            equation1 = f"{equation_number}) {equation1} ="
+            equation2 = f"{equation_number+1}) {equation2} ="
+            equation3 = f"{equation_number+2}) {equation3} ="
             pdf.cell(63, 10, txt=equation1, ln=0, align='L')
             pdf.cell(63, 10, txt=equation2, ln=0, align='C')
             pdf.cell(63, 10, txt=equation3, ln=1, align='R')
     pdf.add_page()
-    pdf.set_font("Arial", style='B', size=16)
+    pdf.set_font("Arial", size=12)
     pdf.cell(200, 10, txt="Answer Key", ln=1, align='C')
     for idx in range(len(answers)):
         pdf.cell(63.33 if idx % 3 == 0 else (63.33 if idx % 3 == 2 else 0), 10,
