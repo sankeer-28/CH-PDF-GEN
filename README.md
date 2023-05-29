@@ -17,5 +17,5 @@
 
 ### Tested and has worked to provide free unlocks on coursehero ‼️‼️‼️
 ### Submit as any math subject
-## Simply download the repo -> extract the file -> click the run.bat
+## Simply download the repo -> extract the file -> click the generate.bat
 
