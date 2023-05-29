@@ -22,6 +22,7 @@ for i in range(1, 21):
         if p == 0:
             pdf.set_font("Arial", style='B', size=16)
             pdf.cell(200, 10, txt="Random Math Problems", ln=1, align='C')
+            pdf.ln(10)
             pdf.set_font("Arial", size=12)
         else:
             pdf.set_font("Arial", size=12)
@@ -43,18 +44,40 @@ for i in range(1, 21):
                 continue
             answers.extend([answer1, answer2, answer3])
             equation_number = p*102 + j*3 + 1
-            equation1 = f"{equation_number}) {equation1} ="
-            equation2 = f"{equation_number+1}) {equation2} ="
-            equation3 = f"{equation_number+2}) {equation3} ="
-            pdf.cell(63, 10, txt=equation1, ln=0, align='L')
-            pdf.cell(63, 10, txt=equation2, ln=0, align='C')
-            pdf.cell(63, 10, txt=equation3, ln=1, align='R')
+
+            pdf.set_font("Arial", style='B', size=12)
+            question_number = f"{equation_number})"
+            w = pdf.get_string_width(question_number) + 2
+            pdf.cell(w, 10, txt=question_number, ln=0)
+            pdf.set_font("Arial", size=12)
+            pdf.cell(63 - w, 10, txt=f" {equation1} =", ln=0)
+
+            pdf.set_font("Arial", style='B', size=12)
+            question_number = f"{equation_number+1})"
+            w = pdf.get_string_width(question_number) + 2
+            pdf.cell(w, 10, txt=question_number, ln=0)
+            pdf.set_font("Arial", size=12)
+            pdf.cell(63 - w, 10, txt=f" {equation2} =", ln=0)
+
+            pdf.set_font("Arial", style='B', size=12)
+            question_number = f"{equation_number+2})"
+            w = pdf.get_string_width(question_number) + 2
+            pdf.cell(w, 10, txt=question_number, ln=0)
+            pdf.set_font("Arial", size=12)
+            pdf.cell(63 - w, 10, txt=f" {equation3} =", ln=1)
+
+
+
     pdf.add_page()
     pdf.set_font("Arial", size=12)
     pdf.cell(200, 10, txt="Answer Key", ln=1, align='C')
     for idx in range(len(answers)):
-        pdf.cell(63.33 if idx % 3 == 0 else (63.33 if idx % 3 == 2 else 0), 10,
-                 txt=f"{idx+1}. {answers[idx]}", ln=idx % 3 == 2 or idx == len(answers)-1,
-                 align='L' if idx % 3 == 0 else ('C' if idx % 3 == 1 else 'R'))
+        pdf.cell(
+            63.33 if idx % 3 == 0 else (63.33 if idx % 3 == 2 else 0),
+            10,
+            txt=f"{idx+1}. {answers[idx]}",
+            ln=idx % 3 == 2 or idx == len(answers)-1,
+            align='L' if idx % 3 == 0 else ('C' if idx % 3 == 1 else 'R')
+        )
     filename = os.path.join(folder_path, f"{generate_random_filename()}.pdf")
     pdf.output(filename)
