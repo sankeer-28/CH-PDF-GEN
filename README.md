@@ -3,7 +3,7 @@
 ## It is recommended to not submit more than 20 pdfs at a time 
 
 ## Please install python (3.0 and up) and the fpdf library
-                  pip install fpdf
+      pip install fpdf
 
 ### Creates a folder called "generated_pdfs" in your Downloads directory and generates 20 pdfs with a random file name
 ### Each pdf has an answer key at the end ‼️
