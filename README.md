@@ -7,7 +7,7 @@
       pip install fpdf
 
 ### Creates a folder called "generated_pdfs" in your Downloads directory and generates 20 pdfs with a random file name
-### Each pdf has an answer key at the end ‼️
+### Each pdf has an answer key at the end ‼️ (makes it look less sus)
 
 #### Example Question page
 ![image](https://github.com/sankeer-28/CH-PDF-GEN/assets/112449287/80ae697b-43ff-4460-83f3-67e5de8e278c)
