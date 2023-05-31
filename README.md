@@ -27,7 +27,7 @@
 
 You may encounter this message during download. click Keep.
 ### OR
-## Simply download the repo -> extract the file -> click the generate.bat or pdfgenerator.exe
+### Simply download the repo -> extract the file -> click the generate.bat or pdfgenerator.exe
 ### OR
 ### If you have GIT installed, open Command Prompt and copy paste the following
       git clone https://github.com/sankeer-28/Math-PDF-Generator.git
