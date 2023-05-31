@@ -22,7 +22,7 @@
 
 
 
-#### Download the [latest release](https://github.com/sankeer-28/Math-PDF-Generator/releases/tag/EXE) and click on the pdfgenerator.exe file to run (make sure to have pythona dn fpdf installed prior)
+#### Download the [latest release](https://github.com/sankeer-28/Math-PDF-Generator/releases/tag/EXE) and click on the pdfgenerator.exe file to run 
 ### OR
 ## Simply download the repo -> extract the file -> click the generate.bat
 
