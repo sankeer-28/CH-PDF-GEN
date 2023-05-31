@@ -8,7 +8,7 @@
 ### Uses a Simple GUI
 <img src="https://github.com/sankeer-28/Math-PDF-Generator/assets/112449287/d8e8bd41-dd83-4147-9120-29634b245705" width="50%" style="display: block; margin: auto;">
 
-### Each pdf has an answer key at the end ‼️ (makes it look less sus)
+### Each pdf has an answer key at the end ‼️ 
 
 #### Example Question page
 ![image](https://github.com/sankeer-28/CH-PDF-GEN/assets/112449287/80ae697b-43ff-4460-83f3-67e5de8e278c)
