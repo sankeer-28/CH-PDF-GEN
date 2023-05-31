@@ -3,7 +3,7 @@
 ### May work for other sites with upload to unlock such as [Studocu](https://www.studocu.com/en-us/home) (not tested)
 ## It is recommended to not submit more than 20 pdfs at a time 
 
-## Please install python (3.0 and up) and the fpdf library
+## Please install [python](https://www.python.org/downloads/) (3.0 and up) and the fpdf library
       pip install fpdf
 ### Uses a Simple GUI
 <img src="https://github.com/sankeer-28/Math-PDF-Generator/assets/112449287/d8e8bd41-dd83-4147-9120-29634b245705" width="50%" style="display: block; margin: auto;">
