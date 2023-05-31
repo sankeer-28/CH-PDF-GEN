@@ -28,4 +28,6 @@
 You may encounter this message during download. click Keep.
 ### OR
 ## Simply download the repo -> extract the file -> click the generate.bat
+## OR
+      git clone https://github.com/sankeer-28/Math-PDF-Generator.git
 
