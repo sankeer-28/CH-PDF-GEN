@@ -5,8 +5,9 @@
 
 ## Please install python (3.0 and up) and the fpdf library
       pip install fpdf
+### Uses a Simple GUI
+<img src="https://github.com/sankeer-28/Math-PDF-Generator/assets/112449287/d8e8bd41-dd83-4147-9120-29634b245705" width="50%" style="display: block; margin: auto;">
 
-### Creates a folder called "generated_pdfs" in your Downloads directory and generates 20 pdfs with a random file name
 ### Each pdf has an answer key at the end ‼️ (makes it look less sus)
 
 #### Example Question page
@@ -18,7 +19,8 @@
 ### Tested and has worked to provide free unlocks on coursehero ‼️‼️‼️
 ### Submit as any math subject
 # How To Run
-![image](https://github.com/sankeer-28/Math-PDF-Generator/assets/112449287/4ce3c110-eb71-4130-92a1-ed7c90b0e889)
+![image](![image](https://github.com/sankeer-28/Math-PDF-Generator/assets/112449287/b126c9ea-3ab2-492a-98c6-6e9b1798f3a0))
+
 
 #### Download the [latest release](https://github.com/sankeer-28/Math-PDF-Generator/releases/tag/EXE) and click on the pdfgenerator.exe file to run (make sure to have pythona dn fpdf installed prior)
 ### OR
