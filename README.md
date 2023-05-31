@@ -19,7 +19,7 @@
 ### Tested and has worked to provide free unlocks on coursehero ‼️‼️‼️
 ### Submit as any math subject
 # How To Run
-![image](![image](https://github.com/sankeer-28/Math-PDF-Generator/assets/112449287/b126c9ea-3ab2-492a-98c6-6e9b1798f3a0))
+
 
 
 #### Download the [latest release](https://github.com/sankeer-28/Math-PDF-Generator/releases/tag/EXE) and click on the pdfgenerator.exe file to run (make sure to have pythona dn fpdf installed prior)
