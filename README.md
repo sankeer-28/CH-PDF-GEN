@@ -1,8 +1,4 @@
-# CourseHero Free Unlocks PDF Generator (Math)
-### A simple random math pdf generator that exploits the [CourseHero Uploads for Unlocks](https://www.coursehero.com/upload/) to gains free unlocks
-
-### May work for other sites with upload to unlock such as [Studocu](https://www.studocu.com/en-us/home) (not tested)
-## It is recommended to not submit more than 20 pdfs at a time 
+#  PDF Generator (Math)
 
 ## Please install [python](https://www.python.org/downloads/) (3.0 and up) and the fpdf library
       pip install fpdf
