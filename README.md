@@ -21,6 +21,4 @@
 
 
 #### Download the [latest release](https://github.com/sankeer-28/Math-PDF-Generator/releases/tag/EXE) and click on the pdfgenerator.exe file to run 
-![image](https://github.com/sankeer-28/Math-PDF-Generator/assets/112449287/9122817b-3d3a-4f15-aa90-ed2b6b06e320)
-
-
+[or use the webapp](https://github.com/sankeer28/Math-PDF-Generator-Web)
