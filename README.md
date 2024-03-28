@@ -1,5 +1,5 @@
 #  PDF Generator (Math)
-## [Webapp version](https://github.com/sankeer28/Math-PDF-Generator-Web)
+## [This project is discontinued, moved onto web version](https://github.com/sankeer28/Math-PDF-Generator-Web)
 
 ## Please install [python](https://www.python.org/downloads/) (3.0 and up) and the fpdf library
       pip install fpdf
