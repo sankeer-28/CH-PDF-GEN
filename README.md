@@ -23,10 +23,4 @@
 #### Download the [latest release](https://github.com/sankeer-28/Math-PDF-Generator/releases/tag/EXE) and click on the pdfgenerator.exe file to run 
 ![image](https://github.com/sankeer-28/Math-PDF-Generator/assets/112449287/9122817b-3d3a-4f15-aa90-ed2b6b06e320)
 
-You may encounter this message during download. click Keep.
-### OR
-### Simply download the repo -> extract the file -> click the generate.bat or pdfgenerator.exe
-### OR
-### If you have GIT installed, open Command Prompt and copy paste the following
-      git clone https://github.com/sankeer-28/Math-PDF-Generator.git
 
