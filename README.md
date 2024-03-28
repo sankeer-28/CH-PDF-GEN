@@ -1,4 +1,4 @@
-#  PDF Generator (Math)
+#  Random PDF Generator (Math)
 ## [This project is discontinued, moved onto web version](https://github.com/sankeer28/Math-PDF-Generator-Web)
 
 ## Please install [python](https://www.python.org/downloads/) (3.0 and up) and the fpdf library
